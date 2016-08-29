@@ -5,6 +5,7 @@
     <style>
       img {
         margin: 5px;
+        border: double;
       }
       #img-container {
         display: flex;
@@ -16,11 +17,40 @@
           flex-direction: column;
         }
       }
+
+      .square {
+        background-color: sienna;
+        padding: 5px 5px 5px 20px;
+        border: double;
+      }
+      .author {
+        padding-left:950px;
+      }
+      .text {
+        font-size: larger;
+      }
+      iframe {
+        border: double;
+      }
+
+      .backgroundpicture {
+        background-color: sienna;
+        padding:20px;
+        border:double;
+      }
+      .OldGreg {
+        background-color: brown;
+        border: double;
+        margin-right: 1000px;
+      }
     </style>
   </head>
   <body>
-    <h1> Hello Ally! </h1>
+
+    <div class="square">
+    <h1> Hello Ally! <span class="author"> Created by P </span> </h1>
     <h3> This is my first webpage specially created for you.</h3>
+    </div>
 
     <hr/>
 
@@ -29,23 +59,29 @@
       <img width="648" height="972" src="images/allyenik3.jpg"/>
     </div>
 
-    <p> Once there was boy who traveled to the United States of America. He went from East to West, from South to North,
+    <p class="text"> Once there was boy who traveled to the United States of America. He went from East to West, from South to North,
       and
       all the way back. There was a girl not small but average. She went with this boy to drive around the coast and
       Canada,
       hoping she would make it home. Home they came, in <strong>Biloxi, Mississippi</strong>.</p>
     <hr/>
 
-    <h4> Could you ever learn to love me?</h4>
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/4LZo9ugJTWQ" frameborder="0"
+    <div class="backgroundpicture">
+      <h4> Could you ever learn to love me?</h4>
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/4LZo9ugJTWQ" frameborder="0"
             allowfullscreen></iframe>
-    <h1>I'm Old Greg!!!</h1>
+      <h1>I'm Old Greg!!!</h1>
 
-    <ol>
-      <li>I like Baileys! (mmm creamy)</li>
-      <li>I have seen your downstairs mixup!</li>
-      <li>I've never came this far....</li>
+      <div class="OldGreg">
+         <ol>
+          <li>I like Baileys! (mmm creamy)</li>
+          <li>I have seen your downstairs mixup!</li>
+          <li>I've never came this far....</li>
+          </ol>
+      </div>
+      <br/>
 
+    </div>
       <hr/>
       Do you want more?
       <form action="http://mightyboosh.wikia.com/wiki/Old_Gregg">
